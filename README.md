@@ -9,3 +9,9 @@ The library includes ..
 3. Calculation of a "smoothed" background through iterative low-pass filtering based on the method of M.I. Ivanova and L. Makowski (Acta Cryst. (1998) A54, 626-631).
 
 These methods are described fully [Here](http://www.diamond.ac.uk/Beamlines/Soft-Condensed-Matter/small-angle/SAXS-Software/CCP13/XFIX.html#background_section)
+
+This package is available on PyPI under name musclex_ccp13. You can install the package by
+
+pip install musclex_ccp13
+
+** It will be automatically installed by Muscle X when the program suite is install**
