@@ -2,5 +2,8 @@
 setup.py
 musclexflibs/ccp13/BCKSMOOTH.f
 musclexflibs/ccp13/BGCSYM2.f
+musclexflibs/ccp13/BGWSRT2.f
+musclexflibs/ccp13/BLUR.f
+musclexflibs/ccp13/BLURLIMITS.f
 musclexflibs/ccp13/fitpack.f
 musclexflibs/ccp13/sort.f

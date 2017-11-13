@@ -14,4 +14,4 @@ This package is available on PyPI under name musclex_ccp13. You can install the 
 
 pip install musclex_ccp13
 
-** It will be automatically installed by Muscle X when the program suite is install**
+**This package will be automatically installed by Muscle X**

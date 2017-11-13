@@ -6,7 +6,7 @@ import fabio
 from PyQt4 import QtGui
 from tifffile import imsave
 import os, sys
-# print ccp13.bgwsrt2.__doc__
+print ccp13.bgwsrt2.__doc__
 
 img_path = os.path.split(os.path.realpath(__file__))[0] + "/test_images/July10_148.tif.result.tif"
 img = fabio.open(img_path).data
@@ -18,10 +18,10 @@ buf = np.array(img, 'f')
 b = np.zeros(len(buf), 'f')
 iwid=20
 jwid=20
-isep=20
-jsep=20
-maxdim = width*height+100
-maxwin = (iwid*2+1)*(jwid*2+1)+100
+isep=10
+jsep=10
+maxdim = width*height
+maxwin = (iwid*2+1)*(jwid*2+1)
 
 ccp13.bgwsrt2(buf=buf,
               b=b,
@@ -32,7 +32,7 @@ ccp13.bgwsrt2(buf=buf,
               smoo=0.0,
               tens=0.0,
               pc1=0.05,
-              pc2=0.15,
+              pc2=0.25,
               npix=width,
               nrast=height,
               maxdim=maxdim,
