@@ -42,7 +42,7 @@ flib = Extension(name = 'ccp13',
                  )
 
 setup(
-    name='musclexflibs',
+    name='musclex_ccp13',
     version = '1.1',
     ext_modules = [flib]
 )
