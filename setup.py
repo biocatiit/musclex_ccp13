@@ -43,6 +43,6 @@ flib = Extension(name = 'ccp13',
 
 setup(
     name='musclex_ccp13',
-    version = '1.1',
+    version = '1.2',
     ext_modules = [flib]
 )
